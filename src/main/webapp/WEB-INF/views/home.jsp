@@ -9,7 +9,7 @@
 	
 	<style>
 		body {
-		    background-color: #1084C6;
+		    background-color: #0098D1;
 		}
 		li {
 			background-color: #FFFFFF;
@@ -26,7 +26,7 @@
 </head>
 <body>
 	<a href="<%=request.getContextPath()%>/home" target="_self">
-		<img src="<%=request.getContextPath()%>/resources/pics/code_for_the_future_no_detail.jpg" width="200" height="200" />
+		<img src="<%=request.getContextPath()%>/resources/pics/code_for_the_future_logo.jpg" width="600" height="200" />
 	</a>
 
 	<ul class="nav nav-pills">

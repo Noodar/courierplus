@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="<%= request.getContextPath() %>/resources/css/default.css">
   <style>
 	body {
-	    background-color: #1084C6;
+	    background-color: #0098D1;
 	}
 	li {
 			background-color: #FFFFFF;
@@ -21,7 +21,7 @@
 </head>
 <body>
 	<a href="<%= request.getContextPath() %>/home" target="_self"> 
-	  	<img src="<%=request.getContextPath()%>/resources/pics/code_for_the_future_no_detail.jpg" width="200" height="200" />
+	  	<img src="<%=request.getContextPath()%>/resources/pics/code_for_the_future_logo.jpg" width="600" height="200" />
     </a>
   
 	<ul class="nav nav-pills" >
@@ -37,7 +37,7 @@
   	<img src="<%= request.getContextPath() %>/resources/pics/liveclasses.jpg" align="middle" width="600" height="400"/>
   </p>
   <p>
-  	<img src="<%= request.getContextPath() %>/resources/pics/upcomingclasses.jpg" align="middle" width="600" height="400"/>
+  	<img src="<%= request.getContextPath() %>/resources/pics/upcomingclasses.jpg" align="middle" width="600" height="700"/>
   </p>
   
 </body>
