@@ -12,6 +12,18 @@ public class WelcomeController {
 		model.addAttribute("greeting", "Welcome to 思洋快遞!");
 		model.addAttribute("tagline", "The simple but not dumb Delivery Service");
 
-		return "welcome";
+		return "home";
+	}
+	
+	@RequestMapping("/home")
+	public String home(Model model) {
+
+		return "home";
+	}
+	
+	@RequestMapping("/classes")
+	public String classes(Model model) {
+
+		return "classes";
 	}
 }
