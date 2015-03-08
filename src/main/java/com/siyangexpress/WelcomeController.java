@@ -22,8 +22,20 @@ public class WelcomeController {
 	}
 	
 	@RequestMapping("/classes")
-	public String classes(Model model) {
+	public String classes() {
 
 		return "classes";
+	}
+	
+	@RequestMapping("/mentors")
+	public String mentors() {
+
+		return "mentors";
+	}
+	
+	@RequestMapping("/mentors/julia")
+	public String mentor_detail() {
+
+		return "mentor_detail";
 	}
 }

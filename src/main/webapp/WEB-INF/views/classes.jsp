@@ -20,26 +20,24 @@
   </style>
 </head>
 <body>
-  <section>
-  		<a href="<%= request.getContextPath() %>/home" target="_self"> 
-        	<img src="<%= request.getContextPath() %>/resources/pics/code_for_the_future.jpg" width="200" height="200"/>
-        </a>
-  </section>
+	<a href="<%= request.getContextPath() %>/home" target="_self"> 
+	  	<img src="<%=request.getContextPath()%>/resources/pics/code_for_the_future_no_detail.jpg" width="200" height="200" />
+    </a>
   
 	<ul class="nav nav-pills" >
 	  <li role="presentation"><a href="#">About Us</a></li>
 	  <li role="presentation"><a href="#">My Subscriptions</a></li>
 	  <li role="presentation" class="active"><a href="#">Classes</a></li>
-	  <li role="presentation"><a href="#">Testimonials</a></li>
+	  <li role="presentation"><a href="<%=request.getContextPath()%>/mentors">Mentors</a></li>
 	  <li role="presentation"><a href="#">Sign Up/Login</a></li>
 	  <li role="presentation"><a href="#">Donate</a></li>
 	</ul>
 	
   <p>
-  	<img src="<%= request.getContextPath() %>/resources/pics/liveclasses.jpg" align="middle" width="400" height="400"/>
+  	<img src="<%= request.getContextPath() %>/resources/pics/liveclasses.jpg" align="middle" width="600" height="400"/>
   </p>
   <p>
-  	<img src="<%= request.getContextPath() %>/resources/pics/upcomingclasses.jpg" align="middle" width="400" height="400"/>
+  	<img src="<%= request.getContextPath() %>/resources/pics/upcomingclasses.jpg" align="middle" width="600" height="400"/>
   </p>
   
 </body>

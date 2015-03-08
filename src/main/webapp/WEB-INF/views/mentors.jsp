@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-	
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,11 +32,13 @@
 		<li role="presentation"><a href="#">About Us</a></li>
 		<li role="presentation"><a href="#">My Subscriptions</a></li>
 		<li role="presentation"><a href="<%=request.getContextPath()%>/classes">Classes</a></li>
-		<li role="presentation"><a href="<%=request.getContextPath()%>/mentors">Mentors</a></li>
+		<li role="presentation" class="active"><a href="<%=request.getContextPath()%>/mentors">Mentors</a></li>
 		<li role="presentation"><a href="#">Sign Up/Login</a></li>
 		<li role="presentation"><a href="#">Donate</a></li>
 	</ul>
-	
-	<img src="<%= request.getContextPath() %>/resources/pics/home.jpg" align="middle" width="600" height="1000"/>
+
+	<a href="<%=request.getContextPath()%>/mentors/julia">
+		<img src="<%=request.getContextPath()%>/resources/pics/mentors.jpg"  align="middle" width="600" height="1000"/>
+	</a>
 </body>
 </html>
