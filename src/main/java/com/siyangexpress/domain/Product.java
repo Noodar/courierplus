@@ -1,4 +1,4 @@
-package com.sony.registration.domain;
+package com.siyangexpress.domain;
 
 import java.math.BigDecimal;
 

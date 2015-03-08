@@ -1,4 +1,4 @@
-package com.sony.registration.domain.repository.impl;
+package com.siyangexpress.domain.repository.impl;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -9,8 +9,8 @@ import java.util.Set;
 
 import org.springframework.stereotype.Repository;
 
-import com.sony.registration.domain.Product;
-import com.sony.registration.domain.repository.ProductRepository;
+import com.siyangexpress.domain.Product;
+import com.siyangexpress.repository.ProductRepository;
 
 @Repository
 public class InMemoryProductRepository implements ProductRepository {

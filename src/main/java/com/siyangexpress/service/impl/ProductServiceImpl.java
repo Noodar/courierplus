@@ -1,4 +1,4 @@
-package com.sony.registration.service.impl;
+package com.siyangexpress.service.impl;
 
 import java.util.List;
 import java.util.Map;
@@ -7,9 +7,9 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sony.registration.domain.Product;
-import com.sony.registration.domain.repository.ProductRepository;
-import com.sony.registration.service.ProductService;
+import com.siyangexpress.domain.Product;
+import com.siyangexpress.repository.ProductRepository;
+import com.siyangexpress.service.ProductService;
 
 @Service
 public class ProductServiceImpl implements ProductService {

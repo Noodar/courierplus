@@ -1,11 +1,11 @@
-package com.sony.registration.service.impl;
+package com.siyangexpress.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sony.registration.domain.Product;
-import com.sony.registration.domain.repository.ProductRepository;
-import com.sony.registration.service.OrderService;
+import com.siyangexpress.domain.Product;
+import com.siyangexpress.repository.ProductRepository;
+import com.siyangexpress.service.OrderService;
 
 @Service
 public class OrderServiceImpl implements OrderService{

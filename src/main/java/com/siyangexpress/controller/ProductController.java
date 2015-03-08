@@ -1,4 +1,4 @@
-package com.sony.registration.controller;
+package com.siyangexpress.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.sony.registration.service.ProductService;
+import com.siyangexpress.service.ProductService;
 
 @Controller
 @RequestMapping("/products")

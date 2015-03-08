@@ -1,10 +1,10 @@
-package com.sony.registration.controller;
+package com.siyangexpress.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.sony.registration.service.OrderService;
+import com.siyangexpress.service.OrderService;
 
 @Controller
 public class OrderController {

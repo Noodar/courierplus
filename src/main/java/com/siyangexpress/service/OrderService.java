@@ -1,4 +1,4 @@
-package com.sony.registration.service;
+package com.siyangexpress.service;
 
 public interface OrderService {
 	void processOrder(String  productId, long count);
