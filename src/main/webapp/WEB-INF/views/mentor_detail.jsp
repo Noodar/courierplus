@@ -40,6 +40,6 @@
 	<br/>
 	<br/>
 	<br/>
-	<img src="<%= request.getContextPath() %>/resources/pics/mentor_detail.jpg" align="middle" width="600" height="1000"/>
+	<img src="<%= request.getContextPath() %>/resources/pics/mentor_profile.jpg" align="middle" width="600" height="1000"/>
 </body>
 </html>
